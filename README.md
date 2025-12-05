@@ -13,8 +13,13 @@ git clone https://github.com/RafinoRamdhaniar/api-mbg-sentiment.git
 cd api-mbg-sentiment
 ```
 
+### 2. Downlod Model
+Download model melalui link berikut ini:
+https://drive.google.com/drive/folders/14rID3n81r6jCsUPmWJV14u2yiYzuUwta?usp=drive_link
 
-### 2. Membuat Virtual Environment (Venv)
+setelah berhasil terdownload unzip dan pindahkan pada folder api-mbg-sentiment
+
+### 3. Membuat Virtual Environment (Venv)
 
 Sangat disarankan menggunakan virtual environment agar library tidak bentrok dengan project lain.
 
@@ -32,7 +37,7 @@ source venv/bin/activate
 
 Jika berhasil, Anda akan melihat (venv) di sebelah kiri baris perintah terminal Anda.
 
-### 3. Install Dependencies
+### 4. Install Dependencies
 
 Install semua library yang dibutuhkan menggunakan requirements.txt:
 ```
@@ -41,7 +46,7 @@ pip install -r requirements.txt
 
 Catatan: Instalasi PyTorch (torch) dan Transformers mungkin memakan waktu agak lama tergantung koneksi internet karena ukurannya cukup besar.
 
-### 4. Menjalankan Aplikasi
+### 5. Menjalankan Aplikasi
 
 Jalankan server Flask dengan perintah:
 ```

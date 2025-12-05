@@ -1,13 +1,11 @@
-Sentiment Analysis API (SVM & IndoBERT)
+# Sentiment Analysis API (SVM & IndoBERT)
 
 Requirement
 Python 3.10
 
-Cara Menjalankan (Step-by-Step)
+## Cara Menjalankan (Step-by-Step)
 
-Ikuti langkah-langkah berikut untuk menjalankan aplikasi di komputer lokal Anda.
-
-1. Clone Repository
+### 1. Clone Repository
 
 Buka terminal (Command Prompt/PowerShell/Terminal) dan clone repository ini:
 ```
@@ -16,7 +14,7 @@ cd api-mbg-sentiment
 ```
 
 
-2. Membuat Virtual Environment (Venv)
+### 2. Membuat Virtual Environment (Venv)
 
 Sangat disarankan menggunakan virtual environment agar library tidak bentrok dengan project lain.
 
@@ -34,7 +32,7 @@ source venv/bin/activate
 
 Jika berhasil, Anda akan melihat (venv) di sebelah kiri baris perintah terminal Anda.
 
-3. Install Dependencies
+### 3. Install Dependencies
 
 Install semua library yang dibutuhkan menggunakan requirements.txt:
 ```
@@ -43,7 +41,7 @@ pip install -r requirements.txt
 
 Catatan: Instalasi PyTorch (torch) dan Transformers mungkin memakan waktu agak lama tergantung koneksi internet karena ukurannya cukup besar.
 
-4. Menjalankan Aplikasi
+### 4. Menjalankan Aplikasi
 
 Jalankan server Flask dengan perintah:
 ```
@@ -59,18 +57,18 @@ Jika berhasil, Anda akan melihat output seperti ini:
  * Running on [http://0.0.0.0:5000/](http://0.0.0.0:5000/) (Press CTRL+C to quit)
 ```
 
-Cara Menggunakan API
+## Cara Menggunakan API
 
 Anda bisa menggunakan Postman, Insomnia, atau cURL untuk mengetes API.
 
-1. Cek Status API
+### 1. Cek Status API
 ```
 URL: http://localhost:5000/
 
 Method: GET
 ```
 
-2. Prediksi Menggunakan SVM
+### 2. Prediksi Menggunakan SVM
 ```
 
 URL: http://localhost:5000/predict/svm
